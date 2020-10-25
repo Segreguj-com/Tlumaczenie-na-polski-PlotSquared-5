@@ -1,12 +1,12 @@
 confirm:
-  failed_confirm: $2You have no pending actions to confirm!
-  requires_confirm: '$2Are you sure you wish to execute: $1%s$2?&-$2This cannot be
-    undone! If you are sure: $1/plot confirm'
-  expired_confirm: $2Confirmation has expired, please run the command again!
+  failed_confirm: $2Nie masz żadnych oczekujących działań do potwierdzenia!
+  requires_confirm: '$2Czy na pewno chcesz wykonać: $1%s$2?&-$2To nie może być
+     nie zrobiony! Jeśli jesteś pewien: $1/plot confirm'
+  expired_confirm: $2Potwierdzenie wygasło, uruchom ponownie polecenie!
 move:
-  move_success: $4Successfully moved plot.
-  copy_success: $4Successfully copied plot.
-  requires_unowned: $2The location specified is already occupied.
+  move_success: $4Działka została przeniesiona pomyślnie.
+  copy_success: $4Działka skopiowana pomyślnie.
+  requires_unowned: $2Podana lokalizacja jest już zajęta.
   move_merged: $2Merged plots may not be moved. Please unmerge the plot before performing
     the move.
 set:
