@@ -66,64 +66,64 @@ swap:
 comment:
   inbox_notification: '%sBrak komentarza w indeksie %s
   inbox_item: $2 - $4%s
-  comment_syntax: $2Use /plot comment [X;Z] <%s> <comment>
-  invalid_inbox: '$2That is not a valid inbox.&-$1Accepted values: %s'
-  no_perm_inbox: $2You do not have permission for that inbox
-  no_perm_inbox_modify: $2You do not have permission to modify that inbox
-  no_plot_inbox: $2You must stand in or supply a plot argument
-  comment_added: $4A comment has been left
-  inbox_empty: $2No comments
-  comment_removed_success: $4Successfully deleted comment/s:n$2 - '$3%s$2'
-  comment_removed_failure: $4Failed to delete comment!
+  comment_syntax: $2Użyj /plot comment [X;Z] <%s> <comment>
+  invalid_inbox: '$2To nie jest prawidłowa skrzynka odbiorcza.&-$1Accepted values: %s'
+  no_perm_inbox: $2Nie masz uprawnień do tej skrzynki odbiorczej
+  no_perm_inbox_modify: $2Nie masz uprawnień do modyfikowania tej skrzynki odbiorczej
+  no_plot_inbox: $2Musisz stanąć po stronie lub podać argument fabularny
+  comment_added: $4Został komentarz
+  inbox_empty: $2Bez komentarza
+  comment_removed_success: $4Pomyślnie usunięto komentarz/s:n$2 - '$3%s$2'
+  comment_removed_failure: $4Nie udało się usunąć komentarza!
 console:
-  not_console: $2For safety reasons, this command can only be executed by console.
-  is_console: $2This command can only be executed by a player.
+  not_console: $2Ze względów bezpieczeństwa to polecenie można wykonać tylko za pomocą konsoli.
+  is_console: $2To polecenie może zostać wykonane tylko przez gracza.
 clipboard:
-  paste_failed: '$2Failed to paste the selection. Reason: $2%s'
+  paste_failed: '$2Nie udało się wkleić zaznaczenia. Powód: $2%s'
 toggle:
-  toggle_enabled: '$2Enabled setting: %s'
-  toggle_disabled: '$2Disabled setting: %s'
+  toggle_enabled: '$2Włączone ustawienie: %s'
+  toggle_disabled: '$2Ustawienie wyłączone: %s'
 blocked command:
-  command_blocked: $2That command is not allowed in this plot
+  command_blocked: $2To polecenie nie jest dozwolone w tym wykresie
 done:
-  done_already_done: $2This plot is already marked as done
-  done_not_done: $2This plot is not marked as done.
-  done_insufficient_complexity: $2This plot is too simple. Please add more detail
-    before using this command.
-  done_success: $1Successfully marked this plot as done.
-  done_removed: $1You may now continue building in this plot.
+  done_already_done: $2Ta fabuła jest już oznaczona jako wykonana
+  done_not_done: $2Ten wykres nie jest oznaczony jako gotowy.
+  done_insufficient_complexity: $2Ta fabuła jest zbyt prosta. Dodaj więcej szczegółów
+     przed użyciem tego polecenia.
+  done_success: $1Pomyślnie oznaczono tę fabułę jako gotową.
+  done_removed: $1Możesz teraz kontynuować budowę na tej działce.
 ratings:
-  rating_not_valid: $2You need to specify a number between 1 and 10
-  rating_already_exists: $2You have already rated plot $2%s
-  rating_applied: $4You successfully rated plot $2%s
-  rating_not_your_own: $2You cannot rate your own plot
-  rating_not_done: $2You can only rate finished plots.
-  rating_not_owned: $2You cannot rate a plot that is not claimed by anyone
-  ratings_purged: $2Purged ratings for this plot
-  rating_disliked: $4You successfully disliked plot $2%s
-  rating_liked: $4You successfully liked plot $2%s
+  rating_not_valid: $2Musisz podać liczbę od 1 do 10
+  rating_already_exists: $2Już oceniłeś działkę $2%s
+  rating_applied: $4Pomyślnie oceniłeś działkę $2%s
+  rating_not_your_own: $2Nie możesz ocenić własnej fabuły
+  rating_not_done: $2Możesz oceniać tylko gotowe działki.
+  rating_not_owned: $2Nie możesz ocenić fabuły, do której nikt się nie zgłasza
+  ratings_purged: $2Usunięto oceny dla tej fabuły
+  rating_disliked: $4Spodobała Ci się fabuła $2%s
+  rating_liked: $4Pomyślnie polubiłeś fabułę $2%s
 tutorial:
-  rate_this: $2Rate this plot!
-  comment_this: '$2Leave some feedback on this plot: %s'
+  rate_this: $2Oceń tę działkę!
+  comment_this: '$2Zostaw opinię na temat tej fabuły: %s'
 economy:
-  econ_disabled: $2Economy is not enabled
-  cannot_afford_plot: $2You cannot afford to buy this plot. It costs $1%s
-  not_for_sale: $2This plot is not for sale
-  cannot_buy_own: $2You cannot buy your own plot
-  plot_sold: $4Your plot; $1%s0$4, has been sold to $1%s1$4 for $1$%s2
-  cannot_afford_merge: $2You cannot afford to merge the plots. It costs $1%s
-  added_balance: $1%s $2has been added to your balance
-  removed_balance: $1%s $2has been taken from your balance
-  removed_granted_plot: $2You used %s plot grant(s), you've got $1%s $2left
+  econ_disabled: $2Ekonomia nie jest włączona
+  cannot_afford_plot: $2Nie możesz sobie pozwolić na zakup tej działki. To kosztuje $1%s
+  not_for_sale: $2Ta działka nie jest na sprzedaż
+  cannot_buy_own: $2Nie możesz kupić własnej działki
+  plot_sold: $4Twoja fabuła; $1%s0$4, został sprzedany $1%s1$4 dla $1$%s2
+  cannot_afford_merge: $2Nie możesz sobie pozwolić na scalenie działek. To kosztuje $1%s
+  added_balance: $1%s $2został dodany do Twojego salda
+  removed_balance: $1%s $2został usunięty z Twojego salda
+  removed_granted_plot: $2Wykorzystałeś %sdotacje na działkę, masz $1%s $2lewo
 setup:
-  setup_init: '$1Usage: $2/plot setup <value>'
-  setup_step: '$3[$1Step %s0$3] $1%s1 $2- $1Expecting: $2%s2 $1Default: $2%s3'
-  setup_invalid_arg: '$2%s0 is not a valid argument for step %s1. To cancel setup
-    use: $1/plot setup cancel'
-  setup_valid_arg: $2Value $1%s0 $2set to %s1
-  setup_finished: $4You should have been teleported to the created world. Otherwise
-    you will need to set the generator manually using the bukkit.yml or your chosen
-    world management plugin.
+  setup_init: '$1Stosowanie: $2/plot setup <value>'
+  setup_step: '$3[$1Krok %s0$3] $1%s1 $2- $1Przy nadziei: $2%s2 $1Domyślne: $2%s3'
+  setup_invalid_arg: '$2%s0 nie jest prawidłowym argumentem dla kroku %s1. Anulowanie konfiguracji
+     posługiwać się: $1/plot setup cancel'
+  setup_valid_arg: $2Wartość $1%s0 $2Ustawić %s1
+  setup_finished: $4Powinieneś zostać teleportowany do stworzonego świata. Inaczej
+     będziesz musiał ustawić generator ręcznie za pomocą bukkit.yml lub wybranego
+     wtyczka do zarządzania światem.
   setup_world_taken: $2%s is already a world
   setup_not_started: $1No setup started. Use $2/plot setup $1to start a setup process.
   setup_cancelled: $7Cancelled setup.
