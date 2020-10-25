@@ -7,65 +7,64 @@ move:
   move_success: $4Działka została przeniesiona pomyślnie.
   copy_success: $4Działka skopiowana pomyślnie.
   requires_unowned: $2Podana lokalizacja jest już zajęta.
-  move_merged: $2Merged plots may not be moved. Please unmerge the plot before performing
-    the move.
+  move_merged: $2Połączonych działek nie można przenosić. Rozłącz działkę przed wykonaniem
+     ruch.
 set:
-  set_attribute: $4Successfully set %s0 set to %s1
+  set_attribute: $4Ustawiono pomyślnie %s ustawić %s1
 web:
-  generating_link: $1Processing plot...
-  generating_link_failed: $2Failed to generate download link!
-  save_failed: $2Failed to save
-  load_null: $2Please use $4/plot load $2to get a list of schematics
-  load_failed: $2Failed to load schematic
-  load_list: '$2To load a schematic, use $1/plot load #'
+  generating_link: $1Działka przetwarzania...
+  generating_link_failed: $2Nie udało się wygenerować linku do pobrania!
+  save_failed: $2Nie udało się zapisać
+  load_null: $2Please use $4/plot load $2aby uzyskać listę schematów
+  load_failed: $2Nie udało się załadować schematu
+  load_list: '$2Aby załadować schemat, użyj $1/plot load #'
   save_success: $1Successfully saved!
 compass:
-  compass_target: $4Successfully targeted plot with compass
+  compass_target: $4Pomyślnie wycelowana działka z kompasem
 cluster:
-  cluster_available_args: '$1The following sub commands are available: $4list$2, $4create$2,
+  cluster_available_args: '$1Dostępne są następujące komendy podrzędne: $4list$2, $4create$2,
     $4delete$2, $4resize$2, $4invite$2, $4kick$2, $4leave$2, $4members$2, $4info$2,
     $4tp$2, $4sethome'
-  cluster_list_heading: $2There are $1%s$2 clusters in this world
+  cluster_list_heading: $2Tam są $1%s$2 klastry na tym świecie
   cluster_list_element: $2 - $1%s&-
-  cluster_intersection: '$2The proposed area overlaps with: %s0'
-  cluster_outside: '$2The proposed area is outside the plot area: %s0'
-  cluster_added: $4Successfully created the cluster.
-  cluster_deleted: $4Successfully deleted the cluster.
-  cluster_resized: $4Successfully resized the cluster.
-  cluster_added_user: $4Successfully added user to the cluster.
-  cannot_kick_player: $2You cannot kick that player
-  cluster_invited: '$1You have been invited to the following cluster: $2%s'
-  cluster_removed: '$1You have been removed from cluster: $2%s'
-  cluster_kicked_user: $4Successfully kicked the user
-  invalid_cluster: '$1Invalid cluster name: $2%s'
-  cluster_not_added: $2That player was not added to the plot cluster
-  cluster_cannot_leave: $1You must delete or transfer ownership before leaving
-  cluster_added_helper: $4Successfully added a helper to the cluster
-  cluster_removed_helper: $4Successfully removed a helper from the cluster
-  cluster_regenerated: $4Successfully started cluster regeneration
-  cluster_teleporting: $4Teleporting...
-  cluster_info: '$1Current cluster: $2%id%&-$1Name: $2%name%&-$1Owner: $2%owner%&-$1Size:
-    $2%size%&-$1Rights: $2%rights%'
+  cluster_intersection: '$2Proponowany obszar pokrywa się z: %s0'
+  cluster_outside: '$2Proponowany teren poza terenem działki: %s0'
+  cluster_added: $4Utworzono klaster.
+  cluster_deleted: $4Pomyślnie usunięto klaster.
+  cluster_resized: $4Pomyślnie zmieniono rozmiar klastra.
+  cluster_added_user: $4Pomyślnie dodano użytkownika do klastra.
+  cannot_kick_player: $2Nie możesz wyrzucić tego gracza
+  cluster_invited: '$1Zostałeś zaproszony do następującego klastra: $2%s'
+  cluster_removed: '$1Zostałeś usunięty z klastra: $2%s'
+  cluster_kicked_user: $4Pomyślnie wyrzucono użytkownika
+  invalid_cluster: '$1Nieprawidłowa nazwa klastra: $2%s'
+  cluster_not_added: $2Ten gracz nie został dodany do klastra fabuły
+  cluster_cannot_leave: $1Przed opuszczeniem musisz usunąć lub przenieść własność
+  cluster_added_helper: $4Pomyślnie dodano pomocnika do klastra
+  cluster_removed_helper: $4Pomyślnie usunięto pomocnika z klastra
+  cluster_regenerated: $4Pomyślnie rozpoczęto regenerację klastra
+  cluster_teleporting: $4Teleportacja...
+  cluster_info: '$1Bieżący klaster: $2%id%&-$1Nazwa: $2%name%&-$1Owner: $2%owner%&-$1Size:
+    $2%size%&-$1Prawa: $2%rights%'
 border:
-  border: $2You are outside the current map border
+  border: $2Znajdujesz się poza aktualną granicą mapy
 worldedit masks:
-  worldedit_bypass: $2&oTo bypass your restrictions use $4/plot wea
-  worldedit_bypassed: $2Currently bypassing WorldEdit restriction.
+  worldedit_bypass: $2&oAby ominąć ograniczenia, użyj $4/plot wea
+  worldedit_bypassed: $2Obecnie omijanie ograniczenia WorldEdit.
 gamemode:
-  gamemode_was_bypassed: $1You bypassed the GameMode ($2{gamemode}$1) $1set for $2{plot}
+  gamemode_was_bypassed: $1Pominięto GameMode ($2{gamemode}$1) $1ustawiony na $2{plot}
 height limit:
-  height_limit: $1This plot area has a height limit of $2{limit}
+  height_limit: $1Ten obszar kreślenia ma ograniczenie wysokości do $2{limit}
 records:
-  notify_enter: $2%player $2entered your plot ($1%plot$2)
-  notify_leave: $2%player $2left your plot ($1%plot$2)
+  notify_enter: $2%player $2wszedł na twoją działkę ($1%plot$2)
+  notify_leave: $2%player $2opuścił twoją fabułę ($1%plot$2)
 swap:
-  swap_overlap: $2The proposed areas are not allowed to overlap
-  swap_success: $4Successfully swapped plots
-  swap_merged: $2Merged plots may not be swapped. Please unmerge the plot before performing
-    the swap.
+  swap_overlap: $2Proponowane obszary nie mogą się pokrywać
+  swap_success: $4Działki zostały zamienione pomyślnie
+  swap_merged: $2Scalonych działek nie można zamienić. Rozłącz działkę przed wykonaniem
+     zamiana.
 comment:
-  inbox_notification: '%s unread messages. Use /plot inbox'
-  not_valid_inbox_index: $2No comment at index %s
+  inbox_notification: '%sBrak komentarza w indeksie %s
   inbox_item: $2 - $4%s
   comment_syntax: $2Use /plot comment [X;Z] <%s> <comment>
   invalid_inbox: '$2That is not a valid inbox.&-$1Accepted values: %s'
